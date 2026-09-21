@@ -1,0 +1,18 @@
+{
+  "name": "hypixel-bedwars-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for looking up Hypixel Bedwars stats and live-tracking a player's status/recent games.",
+  "type": "commonjs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
